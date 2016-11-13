@@ -1,0 +1,26 @@
+html, body {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+      }
+
+      #map_graphics_layer {
+        -webkit-animation-duration: 3s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-name: pulse;
+        -moz-animation-duration: 3s;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-name: pulse;
+      }
+      #search {
+            display: block;
+            position: absolute;
+            z-index: 2;
+            top: 20px;
+            left: 75px;
+          }
+
+          .arcgisSearch .searchGroup .searchInput {
+            width: 15.625rem;
+          }
